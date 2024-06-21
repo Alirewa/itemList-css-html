@@ -1,0 +1,19 @@
+@font-face {
+     font-family: 'estedad';
+     font-weight: 400;
+     font-style: normal;
+     src: url('./font/Estedad-FD-Regular.woff2') format('woff2');
+   }
+   @font-face {
+     font-family: 'estedad-bold';
+     font-weight: bold;
+     font-style: normal;
+     src: url('./font/Estedad-FD-Bold.woff2') format('woff2');
+   }
+* {
+     font-family: "estedad";
+}
+.bold {
+     font-size: large;
+     font-family: "estedad-bold";
+}
